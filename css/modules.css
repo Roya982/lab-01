@@ -1,0 +1,30 @@
+header{
+    background-color: aquamarine;
+}
+
+main :first-child{
+    background-color: cadetblue;
+}
+
+main :last-child{
+    background-color: cyan;
+}
+
+main :nth-child(2){
+    background-color: red;
+}
+main :nth-child(3){
+    background-color: rgb(0, 167, 167);
+}
+main :nth-child(4){
+    background-color: rgb(51, 86, 87);
+}
+main :nth-child(5){
+    background-color: cornflowerblue;
+}
+main :nth-child(6){
+    background-color: crimson;
+}
+main :nth-child(7){
+    background-color: darkmagenta;
+}
