@@ -1,39 +1,39 @@
-body :first-child{
+#a{
     background-color: cornflowerblue;
     text-align: center;
     padding-top: 37.5px;
 }
-body :nth-child(2){
+#b{
     background-color: crimson;
     text-align: center;
     padding-top: 75px;
 }
-body :nth-child(3){
+#c{
     background-color: darkcyan;
     text-align: center;
     padding-top: 62.5px;
 }
-body :nth-child(4){
+#d{
     background-color: darkgreen;
     text-align: center;
     padding-top: 62.5px;
 }
-body :nth-child(5){
+#e{
     background-color: darkmagenta;
     text-align: center;
     padding-top: 125px;
 }
-body :nth-child(6){
+#f{
     background-color: darkolivegreen;
     text-align: center;
     padding-top: 125px;
 }
-body :nth-child(7){
+#g{
     background-color: darkred;
     text-align: center;
     padding-top: 125px;
 }
-body :nth-child(8){
+#h{
     background-color: darkslategrey;
     text-align: center;
     padding-top: 125px;
@@ -46,42 +46,42 @@ body :nth-child(8){
 
 
 @media( min-width: 768px ){
-    body :first-child{
+    #a{
         background-color: aquamarine;
         text-align: center;
         padding-top: 50px;
     }
-    body :nth-child(2){
+    #b{
         background-color: maroon;
         text-align: center;
         padding-top: 300px;
     }
-    body :nth-child(3){
+    #c{
         background-color: deepskyblue;
         text-align: center;
         padding-top: 100px;
     }
-    body :nth-child(4){
+    #d{
         background-color: firebrick;
         text-align: center;
         padding-top: 100px;
     }
-    body :nth-child(5){
+    #e{
         background-color: dimgrey;
         text-align: center;
         padding-top: 125px;
     }
-    body :nth-child(6){
+    #f{
         background-color: aqua;
         text-align: center;
         padding-top: 125px;
     }
-    body :nth-child(7){
+    #g{
         background-color: royalblue;
         text-align: center;
         padding-top: 125px;
     }
-    body :nth-child(8){
+    #h{
         background-color: violet;
         text-align: center;
         padding-top: 125px;

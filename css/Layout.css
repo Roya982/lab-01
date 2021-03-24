@@ -1,87 +1,133 @@
 body{
     width: 480px;
 }
-body :first-child{
+#a{
+    margin: auto;
     height: 75px;
-    width: 100%;   
+    width: 100%;  
+    overflow: auto; 
 }
-body :nth-child(2){
+#b{
+    margin: auto;
     height: 150px;
     width: 100%;
+    overflow: auto;
 }
-body :nth-child(3){
+#c{
+    margin: auto;
     height: 125px;
     width: 100%;
+    overflow: auto;
 }
-body :nth-child(4){
+#d{
+    margin: auto;
     height: 125px;
     width: 100%;
+    overflow: auto;
 }
-body :nth-child(5){
+#e{
+    margin: auto;
     height: 250px;
     width: 50%;
-    float: left;
+    overflow: auto;
 }
-body :nth-child(6){
+#f{
+    margin: auto;
     height: 250px;  
     width: 50%;
-    float: left;
+    overflow: auto;
 }
-body :nth-child(7){
+#g{
+    margin: auto;
     height: 250px;
     width: 50%;
     float: left;
 }
-body :nth-child(8){
+#h{
+    margin: auto;
     height: 250px;   
     width: 50%;
-    float: left;
+    /* float: left; */
 }
 #last{
+    margin: auto;
     height: 80px;
-    clear: both;
+    /* clear: both; */
     width: 100%;
 }
+
+
+
+#first {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% 50%;  
+    /* grid-template-rows: 50% 50%;  */
+}
+
+#first > #e {
+    order:1; 
+}
+
+#first > #f{
+    order:2;  
+}
+
+#second {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* grid-template-rows: 50% 50%; */
+}
+
+#second > #g {
+    order:1;
+}
+
+#second > #h{
+    order:2;
+}
+
+
 
 @media( min-width: 768px ){
     body{
         width: 100%;
     }
-    body :first-child{
+    #a{
         height: 100px;
         width: 100%;   
     }
-    body :nth-child(2){
+    #b{
         height: 600px;
         width: 20.83%;
         float: left;
     }
-    body :nth-child(3){
+    #c{
         height: 200px;
         width: 39.58%;
         float: left;
     }
-    body :nth-child(4){
+    #d{
         height: 200px;
         width: 39.58%;
         float: left;
     }
-    body :nth-child(5){
+    #e{
         height: 250px;
         width: 19.79%;
         float: left;
     }
-    body :nth-child(6){
+    #f{
         height: 250px;  
         width: 19.79%;
         float: left;
     }
-    body :nth-child(7){
+    #g{
         height: 250px;
         width: 19.79%;
         float: left;
     }
-    body :nth-child(8){
+    #h{
         height: 250px;   
         width: 19.79%;
         float: left;
