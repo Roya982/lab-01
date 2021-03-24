@@ -1,30 +1,94 @@
-header{
-    background-color: cyan;
-}
-
-main :first-child{
-    background-color: cadetblue;
-}
-
-main :last-child{
-    background-color: cyan;
-}
-
-main :nth-child(2){
-    background-color: red;
-}
-main :nth-child(3){
-    background-color: rgb(0, 167, 167);
-}
-main :nth-child(4){
-    background-color: rgb(51, 86, 87);
-}
-main :nth-child(5){
+body :first-child{
     background-color: cornflowerblue;
+    text-align: center;
+    padding-top: 37.5px;
 }
-main :nth-child(6){
+body :nth-child(2){
     background-color: crimson;
+    text-align: center;
+    padding-top: 75px;
 }
-main :nth-child(7){
+body :nth-child(3){
+    background-color: darkcyan;
+    text-align: center;
+    padding-top: 62.5px;
+}
+body :nth-child(4){
+    background-color: darkgreen;
+    text-align: center;
+    padding-top: 62.5px;
+}
+body :nth-child(5){
     background-color: darkmagenta;
+    text-align: center;
+    padding-top: 125px;
+}
+body :nth-child(6){
+    background-color: darkolivegreen;
+    text-align: center;
+    padding-top: 125px;
+}
+body :nth-child(7){
+    background-color: darkred;
+    text-align: center;
+    padding-top: 125px;
+}
+body :nth-child(8){
+    background-color: darkslategrey;
+    text-align: center;
+    padding-top: 125px;
+}
+#last{
+    background-color: deeppink;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+@media( min-width: 768px ){
+    body :first-child{
+        background-color: aquamarine;
+        text-align: center;
+        padding-top: 50px;
+    }
+    body :nth-child(2){
+        background-color: maroon;
+        text-align: center;
+        padding-top: 300px;
+    }
+    body :nth-child(3){
+        background-color: deepskyblue;
+        text-align: center;
+        padding-top: 100px;
+    }
+    body :nth-child(4){
+        background-color: firebrick;
+        text-align: center;
+        padding-top: 100px;
+    }
+    body :nth-child(5){
+        background-color: dimgrey;
+        text-align: center;
+        padding-top: 125px;
+    }
+    body :nth-child(6){
+        background-color: aqua;
+        text-align: center;
+        padding-top: 125px;
+    }
+    body :nth-child(7){
+        background-color: royalblue;
+        text-align: center;
+        padding-top: 125px;
+    }
+    body :nth-child(8){
+        background-color: violet;
+        text-align: center;
+        padding-top: 125px;
+    }
+    #last{
+        background-color: gold;
+        text-align: center;
+        padding-top: 75px;
+    }
 }
