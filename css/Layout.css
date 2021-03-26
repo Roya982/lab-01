@@ -1,4 +1,212 @@
-body{
+@media only screen and (min-width: 480px) and (max-width:767px) {
+
+    body {
+        width: 100%;
+    }
+    header .box{
+        width: 100%;
+        height: 75px;
+    }
+    header .box p{
+        padding-top: 37.5px;
+        /* line-height: 75px; */
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+     main aside{
+        width: 100%;
+    }
+    main aside div{
+        height: 150px;
+    }
+    main aside div p{
+        line-height: 150px;
+    }
+    #stRow{
+        width: 100%;
+    }
+    #stRow div{
+        width: 100%;
+        height: 125px;   
+    }
+    #stRow div p{
+        line-height: 125px;
+    }
+    #ndRow{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #ndRow div{
+        width: 50%;
+        height: 250px;
+    }
+    #ndRow div p{
+        line-height: 250px;
+    }
+    #footer{
+        width: 100%;
+    }
+    #footer div{
+        height: 80px;
+        
+    }
+    #footer div p{
+        line-height: 80px;
+    } 
+}
+
+
+@media only screen and (min-width: 768px) and (max-width:960px) {
+    body {
+        width: 100%;
+    }
+
+    header.box{
+        width: 100%;
+        height: 75px;
+    }
+
+    header.box p{
+        line-height: 75px;
+    }
+    
+    main {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+    }
+    main aside{
+        display: flex;
+        flex-direction: initial;
+        width: calc(((200/960)*100%));
+    }
+   aside div{
+        height: 600px;
+        width:100%;
+    }
+    main p{
+        line-height: 600px;
+    }
+    #mainSec{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: calc(((760/960)*100%));
+    }
+    #stRow{
+        display: flex;
+        flex-direction: row;
+        width: 100%;  
+    }
+    #stRow div{
+        width: 50%;
+        height: 200px;
+         
+    }
+    #stRow div p{
+        line-height: 200px;
+    }
+    #sndRow{
+        display: flex;
+        flex-direction: row;
+        width:100% ;
+    }
+    #sndRow div{
+        width: 25%;
+        height: 250px; 
+    }
+    #sndRow div p{
+        line-height: 250px;
+    }
+    #footer{
+        width:100% ;
+    }
+    #footer div{
+        width: 100%;
+        height: 150px;    
+    }
+    #footer div p{
+        line-height: 150px;
+    }
+}
+
+@media (min-width: 960px){
+    
+    body {
+        width: 100%;
+    }
+    header div{
+        height: 100px;
+        width: 100%;
+    }
+    header div p{
+        line-height: 100px;
+    }
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    main aside{
+        display: flex;
+        flex-direction: initial;
+        width: calc(((200/960)*100%));
+    }
+    main aside div{
+        height:600px ;
+        width:100%;   
+    }
+    main aside div p{
+        line-height: 600px;
+    }
+    #mainSec{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: calc(((760/960)*100%));
+    }
+    #stRow{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    #stRow div{
+        width: 50%;
+        height: 200px;
+    }
+    #stRow div p{
+        line-height: 200px;
+    }
+    #sndRow{
+        display: flex;
+        flex-direction: row;
+        width:100% ;
+    }
+
+    #sndRow div{
+        width: 25%;
+        height: 250px;
+    }
+    #sndRow div p{
+        line-height: 250px;
+    }
+
+    #footer{
+        width:100% ;
+    }
+    #footer div{
+        width: 100%;
+        height: 150px;
+    }
+    #footer div p{
+        line-height: 150px;
+    }
+}
+/* body{
     width: 480px;
 }
 #a{
@@ -47,12 +255,12 @@ body{
     margin: auto;
     height: 250px;   
     width: 50%;
-    /* float: left; */
+    float: left;
 }
 #last{
     margin: auto;
     height: 80px;
-    /* clear: both; */
+    clear: both;
     width: 100%;
 }
 
@@ -62,7 +270,7 @@ body{
     display: grid;
     width: 100%;
     grid-template-columns: 50% 50%;  
-    /* grid-template-rows: 50% 50%;  */
+    grid-template-rows: 50% 50%; 
 }
 
 #first > #e {
@@ -76,7 +284,7 @@ body{
 #second {
     display: grid;
     grid-template-columns: 50% 50%;
-    /* grid-template-rows: 50% 50%; */
+    grid-template-rows: 50% 50%;
 }
 
 #second > #g {
@@ -138,4 +346,4 @@ body{
         clear: right;
         width: 79.17%;
     }
-}
+} */

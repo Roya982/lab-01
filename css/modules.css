@@ -1,9 +1,9 @@
-#a{
+header div p{
     background-color: cornflowerblue;
     text-align: center;
     padding-top: 37.5px;
 }
-#b{
+main aside div p{
     background-color: crimson;
     text-align: center;
     padding-top: 75px;
@@ -38,7 +38,7 @@
     text-align: center;
     padding-top: 125px;
 }
-#last{
+main #footer div p{
     background-color: deeppink;
     text-align: center;
     padding-top: 40px;
@@ -46,12 +46,12 @@
 
 
 @media( min-width: 768px ){
-    #a{
+    header div p{
         background-color: aquamarine;
         text-align: center;
         padding-top: 50px;
     }
-    #b{
+    main aside div p{
         background-color: maroon;
         text-align: center;
         padding-top: 300px;
@@ -86,7 +86,7 @@
         text-align: center;
         padding-top: 125px;
     }
-    #last{
+    main #footer div p{
         background-color: gold;
         text-align: center;
         padding-top: 75px;
